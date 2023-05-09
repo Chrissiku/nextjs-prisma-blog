@@ -1,0 +1,51 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\chris\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add next-auth @prisma/client @next-auth/prisma-adapter
+
+PATH: 
+  C:\Users\chris\Downloads\cmder\bin;C:\Users\chris\Downloads\cmder\vendor\conemu-maximus5;C:\Users\chris\Downloads\cmder\vendor\conemu-maximus5\ConEmu;C:\WINDOWS;C:\WINDOWS\system32;C:\Windows\System32;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Ruby31-x64\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Ruby30\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Users\chris\AppData\Roaming\npm;C:\WINDOWS\System32\Wbem;C:\Windows\System32;C:\Program Files\PostgreSQL\15\bin;C:\Windows\System32;C:\Ruby30\bin;C:\Ruby31-x64\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;C:\Users\chris\AppData\Local\Microsoft\WindowsApps;C:\Users\chris\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\chris\AppData\Roaming\npm;;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;C:\Users\chris\Downloads\cmder\
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\courses\prisma\nextjs-prisma\node_modules\prisma\engines\1e7af066ee9cb95cf3a403c78d9aab3e6b04f37a\query_engine-windows.dll.node'
+
+npm manifest: 
+  {
+    "name": "hello-next",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+      "dev": "next",
+      "build": "next build",
+      "start": "next start"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "@prisma/client": "^4.14.0",
+      "next": "12.0.10",
+      "react": "17.0.2",
+      "react-dom": "17.0.2",
+      "react-markdown": "8.0.0"
+    },
+    "devDependencies": {
+      "@types/node": "17.0.14",
+      "@types/react": "17.0.38",
+      "prisma": "^4.13.0",
+      "typescript": "4.5.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

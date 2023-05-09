@@ -29,11 +29,15 @@ const Blog: React.FC<Props> = (props) => {
       <div className="page">
         <h1>Public Feed</h1>
         <main>
-          {props.feed.map((post) => (
-            <div key={post.id} className="post">
-              <Post post={post} />
-            </div>
-          ))}
+          {props.feed.length === 0 ? (
+            <p>No posts found.</p>
+          ) : (
+            props.feed.map((post) => (
+              <div key={post.id} className="post">
+                <Post post={post} />
+              </div>
+            ))
+          )}
         </main>
       </div>
       <style jsx>{`
